@@ -1,0 +1,7 @@
+File file = new File("/Users/bphalak/Desktop/FileUpload.rtf")
+      
+def lines = file.readLines()
+     
+lines.each { String line ->
+  println line
+}
