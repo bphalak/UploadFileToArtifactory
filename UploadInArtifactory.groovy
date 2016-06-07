@@ -1,4 +1,4 @@
-File file = new File("/home/FileUpload.rtf")
+File file = new File("/home/UploadFileArtifact/FileUpload.rtf")
       
 def lines = file.readLines()
      
