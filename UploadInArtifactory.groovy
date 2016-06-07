@@ -1,4 +1,7 @@
-File file = new File("/opt/jenkins/workspace/all_test_jobs/jenkins_test_jobs/UploadFileArtifact/FileUpload.rtf")
+File theDir = new File(envVars.get('WORKSPACE'))
+println theDir.exists()
+
+File file = new File("theDir+"\\FileUpload.rtf")
       
 def lines = file.readLines()
      
