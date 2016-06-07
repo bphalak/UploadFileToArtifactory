@@ -5,6 +5,7 @@ import hudson.model.*
 
 def build = Thread.currentThread().executable
 println build.workspace.toString()
+println System.getenv("PATH")
 
 FileReader file = new FileReader(build.workspace.toString()+"/FileUpload.txt")
       
