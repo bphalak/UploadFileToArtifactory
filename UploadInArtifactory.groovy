@@ -9,10 +9,10 @@ println build.workspace.toString()
 File theDir = new File(build.workspace.toString())
 println theDir.exists()
 
-File theDir1 = new File(build.workspace.toString()+"/FileUpload.rtf")
+File theDir1 = new File(build.workspace.toString()+"/FileUpload.txt")
 println theDir1.exists()
 
-File file = new File(build.workspace.toString()+"/FileUpload.rtf")
+File file = new File(build.workspace.toString()+"/FileUpload.txt")
       
 def lines = file.readLines()
      
